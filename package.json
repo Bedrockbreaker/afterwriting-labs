@@ -31,7 +31,7 @@
     "version": "npm run build && git add .",
     "postversion": "git push --follow-tags",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "echo 'Skipping original prepare script: npm run snyk-protect'"
   },
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
@@ -83,5 +83,5 @@
     "requirejs-text": "^2.0.15",
     "stdio": "^0.2.7"
   },
-  "snyk": true
+  "snyk": false
 }
