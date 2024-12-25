@@ -82,7 +82,7 @@ define(function(require) {
 
         font_family: {
             name: 'font_family',
-            value: 'CourierPrime'
+            value: 'KosugiPrime'
         },
 
         print_profile: {
